@@ -1,0 +1,80 @@
+/*=================
+LAYOUT
+==================*/
+
+.container {
+    width: clamp(60ch, 60%, 75ch);
+    margin: 0 auto;
+    margin-top: 4rem;
+    background-color:rgba(211, 111, 32, 0.9);
+    padding: 1rem 3rem;
+    
+}
+.alphabetical-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/*=================
+MODULES
+==================*/
+body {
+    /* display: grid; */
+    background: url("/img/bg.png");
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.json-sample {
+    padding: 1rem 2rem;
+    background-color: #A8330C;
+    color: #FFFFFF;
+    margin: 2rem auto;
+}
+
+h1 {
+    margin-top: 1rem;
+}
+
+/*=================
+TYPOGRAPHY
+==================*/
+h1 {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 4rem;
+}
+
+h2,
+p, 
+span,
+li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.json-sample p {
+    font-family: 'Courier Prime', monospace;
+    font-weight: 200;
+    line-height: 1.5rem;
+}
+
+h1 {
+    text-align: center;
+}
+

@@ -4,9 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Source+Code+Pro:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
+    
     <title>Ancient Egyptian Deities API</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Ancient Egypt Deities API</h1>
+        <p>The Ancient Egypt Deities API catalogues the most popular gods and goddesses worshipped in Ancient Egypt.</p>
+        <h2>Getting Started</h2>
+        <p>Requests can be made with curl or other helper libraries by following regular REST calls. For example, here is how to GET the data for the deity Horus:</p>
+        <p>https://egyptiandeity.herokuapp.com/api/horus</p>
+        <p>Calling this resource will respond with the following object:</p>
+        <div class="json-sample">
+            <p>{<br>
+            "name": "Horus",<br>
+            "title": "God of Sky",<br>
+            "description": "He is the son of Osiris and Isis, the divine child of the holy family triad. He is one of many gods associated with the falcon. His name means \"he who is above\" and \"he who is distant\". The falcon had been worshipped from earliest times as a cosmic deity whose body represents the heavens and whose eyes represent the sun and the moon.",<br>
+            "appearance": "Horus is depicted as a falcon wearing a crown with a cobra or the Double Crown of Egypt. The hooded cobra (uraeus), which the gods and pharaohs wore on their foreheads, symbolizes light and royalty."<br>
+            }</p>    
+        </div>
+        <h2>List of Deities</h2>
+        <section class="alphabetical-list">
+            <div class="list-col-1">
+                <span>A</span>
+                <ul>
+                    <li>Amun</li>
+                    <li>Anubis</li>
+                </ul>
+                <span>B</span>
+                <ul>
+                    <li>Bastet</li>
+                    <li>Bes</li>
+                </ul>
+                <span>H</span>
+                <ul>
+                    <li>Hapi</li>
+                    <li>Hathor</li>
+                    <li>Horus</li>
+                </ul>
+                <span>I</span>
+                <ul>
+                    <li>Isis</li>
+                </ul>
+            </div>
+            <div class="list-col-2">
+                
+                <span>K<span>
+                <ul>
+                    <li>Kherty</li>
+                    <li>Khnum</li>
+                    <li>Khonsu</li>
+                </ul>
+                <span>M</span>
+                <ul>   
+                    <li>Ma'at</li>
+                </ul>
+                <span>N</span>
+                <ul>
+                    <li>Neith</li>
+                    <li>Nekhbet</li>
+                    <li>Nepthys</li>
+                    <li>Nut</li>
+                </ul>
+                <span>O</span>
+                <ul>
+                    <li>Osiris</li>
+                </ul>
+                <span>P</span>
+                <ul>
+                    <li>Ptah</li>
+                </ul>
+            </div>
+            <div class="list-col-3"> 
+                
+                <span>R</span>
+                <ul>
+                    <li>Ra</li>
+                </ul>
+                <span>S</span>
+                <ul>
+                    <li>Serket</li>
+                    <li>Set</li>
+                    <li>Shu</li>
+                    <li>Sobek</li>
+                </ul>
+                <span>T</span>
+                <ul>
+                    <li>Tawaret</li>
+                    <li>Tefnut</li>
+                    <li>Thoth</li>
+                </ul>
+                <span>W</span>
+                <ul>
+                    <li>Wadjet</li>
+                </ul>
+            </div>
+        </section>
+    </div>
 </body>
 </html>

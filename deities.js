@@ -38,7 +38,7 @@ const deitiesObj = {
   "horus": {
     name: "Horus",
     title: "God of Sky",
-    description: "His the son of Osiris and Isis, the divine child of the holy family triad. He is one of many gods associated with the falcon. His name means \"he who is above\" and \"he who is distant\". The falcon had been worshipped from earliest times as a cosmic deity whose body represents the heavens and whose eyes represent the sun and the moon.",
+    description: "He is the son of Osiris and Isis, the divine child of the holy family triad. He is one of many gods associated with the falcon. His name means \"he who is above\" and \"he who is distant\". The falcon had been worshipped from earliest times as a cosmic deity whose body represents the heavens and whose eyes represent the sun and the moon.",
     appearance: "Horus is depicted as a falcon wearing a crown with a cobra or the Double Crown of Egypt. The hooded cobra (uraeus), which the gods and pharaohs wore on their foreheads, symbolizes light and royalty."
   },
   "anubis": {
