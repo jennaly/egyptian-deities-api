@@ -2,8 +2,13 @@
 LAYOUT
 ==================*/
 
+*::before,
+*,
+*::after {
+    box-sizing: border-box;
+}
 .container {
-    width: clamp(60ch, 60%, 75ch);
+    width: clamp(50ch, 50%, 75ch);
     margin: 0 auto;
     margin-top: 4rem;
     background-color:rgba(211, 111, 32, 0.9);
@@ -79,3 +84,12 @@ h1 {
     text-align: center;
 }
 
+/*=================
+MEDIA QUERIES
+==================*/
+
+@media screen and (max-width: 767px) {
+    .container {
+     margin-top: 0;
+    }
+  }
