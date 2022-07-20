@@ -14,4 +14,4 @@ The server is set up using Node and Express. For the quantity of data used in th
 
 ## Lessons Learned:
 
-I learned to build a robust API on Node using the Express framework and to serve data from the server in response to requests. 
+I learned to build a robust API on Node using the Express framework and to return data from the server in response to requests. 
