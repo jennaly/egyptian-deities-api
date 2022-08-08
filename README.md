@@ -14,7 +14,7 @@ The server is set up using Node and Express. For this application, all of the se
 
 ## Optimizations:
 
-For the quantity of data used in this API, it is sufficient to save them in another file in the root directory and be imported as a module into the server.js file. If there is more data, they would instead be stored in an external database like MongoDB. 
+For the quantity of data used in this API, it is sufficient to save them in another file in the root directory and be imported as a module into the server.js file. If there is more data, they would instead be stored on an external database like MongoDB. 
 
 ## Lessons Learned:
 
