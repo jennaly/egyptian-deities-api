@@ -1,7 +1,9 @@
 # Ancient Egypt Deities API
 An API that catalogues the most popular gods and goddesses worshipped in Ancient Egypt and returns their name, context for their power and origin in Egyptian mythology, and a description of their appearance.
 
-**Link to project:** https://egyptian-deities.herokuapp.com/
+Initially hosted on Heroku, Ancient Egypt Deities API is now hosted on Cyclic.
+
+**Link to project:** https://egyptian-deities.cyclic.app/
 
 
 ![egyptian-deities herokuapp com_](https://user-images.githubusercontent.com/106183040/179894273-2dcf5b1e-1b91-4efc-9220-6fab6d75d173.png)
